@@ -1,5 +1,17 @@
 #summary Welly Features
 
+* Tabbed Browsing
+
+[http://welly.googlecode.com/svn/wiki/tab.jpg]
+
+* Multi-Language Interface
+
+Support English, Simplified Chinese and Traditional Chinese.
+
 * Image Preview
 
 [http://welly.googlecode.com/svn/wiki/preview.jpg]
+
+* [http://en.wikipedia.org/wiki/Apple_Remote Apple Remote] Support
+
+* Full Screen Support
