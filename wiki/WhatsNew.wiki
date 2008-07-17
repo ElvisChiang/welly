@@ -1,5 +1,5 @@
-#Welly Features
+#summary Welly Features
 
-* Preview
+* Image Preview
 
-[http://welly.googlecode.com/svn/wiki/preview.png]
+[http://welly.googlecode.com/svn/wiki/preview.jpg]
