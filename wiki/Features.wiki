@@ -2,6 +2,7 @@
 #labels Featured
 
 Welly exploits the power of Mac OS X for the best term BBS browsing experience.
+See [http://welly.googlecode.com/svn/wiki/ReleaseNotes.html release notes] for latest updates.
 
 = Fastest Text Rendering =
 
@@ -28,6 +29,8 @@ Integrated with [http://www.apple.com/macosx/features/quicklook.html Quick Look]
 = Powerful Notifications =
 
 Integrated with [http://growl.info/ Growl].
+
+[http://welly.googlecode.com/svn/wiki/growl.jpg]
 
 = Multi-Language Interface =
 
