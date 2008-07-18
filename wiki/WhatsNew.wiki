@@ -1,17 +1,33 @@
-#summary Welly Features
+#summary Features of Welly
 
-* Tabbed Browsing
+Welly exploits the power of Mac OS X for the best term BBS browsing experience.
+
+= Fastest Text Rendering =
+
+Based on the advanced [http://en.wikipedia.org/wiki/Core_Text Core Text] technology in Mac OS X.
+
+= Tabbed Browsing =
 
 [http://welly.googlecode.com/svn/wiki/tab.jpg]
 
-* Multi-Language Interface
+= Image Preview =
 
-Support English, Simplified Chinese and Traditional Chinese.
-
-* Image Preview
+Integrated with [http://www.apple.com/macosx/features/quicklook.html Quick Look].
 
 [http://welly.googlecode.com/svn/wiki/preview.jpg]
 
-* [http://en.wikipedia.org/wiki/Apple_Remote Apple Remote] Support
+= Powerful Notifications =
 
-* Full Screen Support
+Integrated with [http://growl.info/ Growl].
+
+= [http://en.wikipedia.org/wiki/Apple_Remote Apple Remote] Support =
+
+= Full Screen =
+
+= Multi-Language Interface =
+
+Support English, Simplified Chinese and Traditional Chinese.
+
+= Automatic Update =
+
+Welly can check for updates on startup.
