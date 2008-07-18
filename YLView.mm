@@ -13,8 +13,7 @@
 #import "YLLGLobalConfig.h"
 #import "YLMarkedTextView.h"
 #import "YLContextualMenuManager.h"
-#import "XIPreviewController.h"
-//#import "YLImagePreviewer.h"
+#import "YLImagePreviewer.h"
 
 #include <deque>
 #include "encoding.h"
@@ -670,18 +669,19 @@ BOOL isSpecialSymbol(unichar ch) {
                                                           column: (index % gColumn)];
         if (url)
         {
-			// modified by boost @ 9#
-			if (([e modifierFlags] & NSShiftKeyMask) == NSShiftKeyMask)
+			// Modified by boost @ 9#
+			if (([e modifierFlags] & NSShiftKeyMask) == NSShiftKeyMask
+                || [url hasSuffix: @".htm"] || [url hasSuffix: @".html"]
+                || [url hasSuffix: @"/"])
             {
                 // click while holding shift key or navigate web pages
                 // open the URL with browser
-				[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:url]];
+				[[NSWorkspace sharedWorkspace] openURL: [NSURL URLWithString: url]];
 			}
 			else
 			{
-                // open with previewer
-                [XIPreviewController dowloadWithURL:[NSURL URLWithString:url]];
-				// [[YLImagePreviewer alloc] initWithURL: [NSURL URLWithString: url]];
+				// open with YLImagePreviewer
+				[[YLImagePreviewer alloc] initWithURL: [NSURL URLWithString: url]];
 			}
         }
     }
@@ -726,10 +726,8 @@ BOOL isSpecialSymbol(unichar ch) {
 		return;
 	}
 	
-	if (![self hasMarkedText] && (c == NSDeleteCharacter)) {
-		//buf[0] = buf[1] = NSBackspaceCharacter;
-		// Modified by K.O.ed: using 0x7F instead of 0x08
-		buf[0] = buf[1] = NSDeleteCharacter;
+	if (![self hasMarkedText] && (c == 0x7F)) {
+		buf[0] = buf[1] = 0x08;
         if ([[[self frontMostConnection] site] detectDoubleByte] &&
             [ds cursorColumn] > 0 && [ds attrAtRow: [ds cursorRow] column: [ds cursorColumn] - 1].f.doubleByte == 2)
             [[self frontMostConnection] sendBytes: buf length: 2];
@@ -800,7 +798,6 @@ BOOL isSpecialSymbol(unichar ch) {
         NSRect retangle = [self bounds];
 		NSRectFill(retangle);
         /* Draw the backed image */
-		
 		NSRect imgRect = rect;
 		imgRect.origin.y = (_fontHeight * gRow) - rect.origin.y - rect.size.height;
 		[_backedImage compositeToPoint: rect.origin
@@ -1263,13 +1260,7 @@ BOOL isSpecialSymbol(unichar ch) {
 			/* Draw Background */
 			NSRect rect = NSMakeRect((c - length) * _fontWidth, (gRow - 1 - r) * _fontHeight,
 								  _fontWidth * length, _fontHeight);
-			
-			// Modified by K.O.ed: All background color use same alpha setting.
-			NSColor *bgColor = [gConfig colorAtIndex: lastBackgroundColor hilite: lastBold];
-			bgColor = [bgColor colorWithAlphaComponent: [[gConfig colorBG] alphaComponent]];
-			[bgColor set];
-			
-			//[[gConfig colorAtIndex: lastBackgroundColor hilite: lastBold] set];
+			[[gConfig colorAtIndex: lastBackgroundColor hilite: lastBold] set];
 			// [NSBezierPath fillRect: rect];
             NSRectFill(rect);
 			
@@ -1361,12 +1352,12 @@ BOOL isSpecialSymbol(unichar ch) {
 - (BOOL)canBecomeKeyView {
     return YES;
 }
-/* commented out by boost @ 9#: why not using the delegate...
+
 - (void)removeTabViewItem:(NSTabViewItem *)tabViewItem {
     [[tabViewItem identifier] close];
-    [super removeTabViewItem:tabViewItem];
+    [super removeTabViewItem: tabViewItem];
 }
-*/
+
 + (NSMenu *) defaultMenu {
     return [[[NSMenu alloc] init] autorelease];
 }

@@ -8,6 +8,7 @@
 
 #import "YLApplication.h"
 #import "YLController.h"
+#import "YLGrowlDelegate.h"
 
 static NSString *gLeftString, *gRightString;
 

@@ -10,12 +10,8 @@
 		07B370690D6840600035E87D /* YLImagePreviewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B370680D6840600035E87D /* YLImagePreviewer.m */; };
 		07B3707A0D6840B20035E87D /* HMBlkAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B370790D6840B20035E87D /* HMBlkAppKit.framework */; };
 		07B3708E0D6840BB0035E87D /* HMBlkAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07B370790D6840B20035E87D /* HMBlkAppKit.framework */; };
-		1631E8200E2C672700B87A38 /* XIQuickLookBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1631E81F0E2C672700B87A38 /* XIQuickLookBridge.m */; };
-		1631E84E0E2C8D5600B87A38 /* XIPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1631E84D0E2C8D5600B87A38 /* XIPreviewController.m */; };
-		16BFE64A0E2BC6FF001862E5 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 16BFE6490E2BC6FF001862E5 /* Growl Registration Ticket.growlRegDict */; };
-		16C0C90F0E294C2700B576C5 /* XIPTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C0C90E0E294C2700B576C5 /* XIPTY.m */; };
-		16FEC3210E2A80B50035DADD /* XITabBarControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FEC3200E2A80B50035DADD /* XITabBarControl.m */; };
-		18A685A80D9414D900CA423A /* TYGrowlBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A685A70D9414D900CA423A /* TYGrowlBridge.m */; };
+		1690219B0E277C4700BC90A4 /* XIQuickLookDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1690219A0E277C4700BC90A4 /* XIQuickLookDelegate.m */; };
+		18A685A80D9414D900CA423A /* YLGrowlDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A685A70D9414D900CA423A /* YLGrowlDelegate.m */; };
 		18BB9B840D98ECC900387145 /* QQWry.dat in Resources */ = {isa = PBXBuildFile; fileRef = 18BB9B830D98ECC900387145 /* QQWry.dat */; };
 		18BB9B870D98ECE500387145 /* IPSeeker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18BB9B860D98ECE500387145 /* IPSeeker.mm */; };
 		5A09016D0DBCDD1600AC08F4 /* YLController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5A09016C0DBCDD1600AC08F4 /* YLController.mm */; };
@@ -39,9 +35,9 @@
 		5AE273230DD3F25D00C7A8FE /* KOAutoReplyRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE273220DD3F25D00C7A8FE /* KOAutoReplyRule.m */; };
 		5AF8CA5D0D9CDB0000DFB5AB /* KOAutoReplyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8CA5C0D9CDB0000DFB5AB /* KOAutoReplyDelegate.m */; };
 		6B3128A60DB36757005D6C32 /* Welly.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6B3128A50DB36757005D6C32 /* Welly.icns */; };
-		81624CE20E2F8F89009C9987 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81624CE10E2F8F89009C9987 /* Carbon.framework */; };
 		850711AB0CA7A347005F4734 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850711AA0CA7A347005F4734 /* ApplicationServices.framework */; };
 		85137B330D02192800833909 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 85137B320D02192800833909 /* Credits.rtf */; };
+		85145AA10AB40053009FC710 /* YLTelnet.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85145AA00AB40053009FC710 /* YLTelnet.mm */; };
 		85145AAE0AB40192009FC710 /* YLTerminal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85145AAD0AB40192009FC710 /* YLTerminal.mm */; };
 		8540F7250CEB43FF003B17D1 /* PSMTabBarControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8540F7240CEB43FF003B17D1 /* PSMTabBarControl.framework */; };
 		8540F7310CEB4428003B17D1 /* PSMTabBarControl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8540F7240CEB43FF003B17D1 /* PSMTabBarControl.framework */; };
@@ -60,6 +56,7 @@
 		85AD6FE70D227F1D00992A1C /* DragonBall.icns in Resources */ = {isa = PBXBuildFile; fileRef = 85B247E60CEA1B840090046C /* DragonBall.icns */; };
 		85AE9DA70CB1597A0045317F /* reload.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 85AE9DA60CB1597A0045317F /* reload.pdf */; };
 		85AE9DAE0CB15D220045317F /* bookmark.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 85AE9DAD0CB15D220045317F /* bookmark.pdf */; };
+		85CE53390D0D687800F55B7B /* YLSSH.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85CE53380D0D687800F55B7B /* YLSSH.mm */; };
 		85D2593A0D20FD48002BD294 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D259390D20FD48002BD294 /* libcrypto.dylib */; };
 		85D259470D21039D002BD294 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D259460D21039D002BD294 /* IOKit.framework */; };
 		85E7825C0D057E8400BDA3FB /* YLEmoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E7825B0D057E8400BDA3FB /* YLEmoticon.m */; };
@@ -96,18 +93,10 @@
 		07B370790D6840B20035E87D /* HMBlkAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HMBlkAppKit.framework; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		1631E81F0E2C672700B87A38 /* XIQuickLookBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIQuickLookBridge.m; sourceTree = "<group>"; };
-		1631E8210E2C674300B87A38 /* XIQuickLookBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIQuickLookBridge.h; sourceTree = "<group>"; };
-		1631E84C0E2C8D5600B87A38 /* XIPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIPreviewController.h; sourceTree = "<group>"; };
-		1631E84D0E2C8D5600B87A38 /* XIPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIPreviewController.m; sourceTree = "<group>"; };
-		16BFE6490E2BC6FF001862E5 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
-		16C0C90A0E294BAA00B576C5 /* XIProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIProtocol.h; sourceTree = "<group>"; };
-		16C0C90D0E294C2700B576C5 /* XIPTY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIPTY.h; sourceTree = "<group>"; };
-		16C0C90E0E294C2700B576C5 /* XIPTY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIPTY.m; sourceTree = "<group>"; };
-		16FEC31F0E2A80B50035DADD /* XITabBarControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XITabBarControl.h; sourceTree = "<group>"; };
-		16FEC3200E2A80B50035DADD /* XITabBarControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XITabBarControl.m; sourceTree = "<group>"; };
-		18A685A60D9414D900CA423A /* TYGrowlBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGrowlBridge.h; sourceTree = "<group>"; };
-		18A685A70D9414D900CA423A /* TYGrowlBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYGrowlBridge.m; sourceTree = "<group>"; };
+		169021990E277C4700BC90A4 /* XIQuickLookDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIQuickLookDelegate.h; sourceTree = "<group>"; };
+		1690219A0E277C4700BC90A4 /* XIQuickLookDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIQuickLookDelegate.m; sourceTree = "<group>"; };
+		18A685A60D9414D900CA423A /* YLGrowlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLGrowlDelegate.h; sourceTree = "<group>"; };
+		18A685A70D9414D900CA423A /* YLGrowlDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLGrowlDelegate.m; sourceTree = "<group>"; };
 		18BB9B830D98ECC900387145 /* QQWry.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = QQWry.dat; sourceTree = "<group>"; };
 		18BB9B850D98ECE500387145 /* IPSeeker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPSeeker.h; sourceTree = "<group>"; };
 		18BB9B860D98ECE500387145 /* IPSeeker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IPSeeker.mm; sourceTree = "<group>"; };
@@ -146,9 +135,10 @@
 		5AF8CA5C0D9CDB0000DFB5AB /* KOAutoReplyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOAutoReplyDelegate.m; sourceTree = "<group>"; };
 		6B3128A50DB36757005D6C32 /* Welly.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Welly.icns; sourceTree = "<group>"; };
 		6B44E8480DB5E96500314664 /* Welly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Welly.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		81624CE10E2F8F89009C9987 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		850711AA0CA7A347005F4734 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
 		85137B320D02192800833909 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		85145A9F0AB40053009FC710 /* YLTelnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTelnet.h; sourceTree = "<group>"; };
+		85145AA00AB40053009FC710 /* YLTelnet.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YLTelnet.mm; sourceTree = "<group>"; };
 		85145AAC0AB40192009FC710 /* YLTerminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTerminal.h; sourceTree = "<group>"; };
 		85145AAD0AB40192009FC710 /* YLTerminal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YLTerminal.mm; sourceTree = "<group>"; };
 		852E798A0C96E7A90027751F /* CommonType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonType.h; sourceTree = "<group>"; };
@@ -176,6 +166,8 @@
 		85AE9DA60CB1597A0045317F /* reload.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = reload.pdf; sourceTree = "<group>"; };
 		85AE9DAD0CB15D220045317F /* bookmark.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = bookmark.pdf; sourceTree = "<group>"; };
 		85B247E60CEA1B840090046C /* DragonBall.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DragonBall.icns; sourceTree = "<group>"; };
+		85CE53370D0D687800F55B7B /* YLSSH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSSH.h; sourceTree = "<group>"; };
+		85CE53380D0D687800F55B7B /* YLSSH.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YLSSH.mm; sourceTree = "<group>"; };
 		85D258B00D1CE575002BD294 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_TW; path = zh_TW.lproj/Preferences.nib; sourceTree = "<group>"; };
 		85D259390D20FD48002BD294 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = /usr/lib/libcrypto.dylib; sourceTree = "<absolute>"; };
 		85D259460D21039D002BD294 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
@@ -214,7 +206,6 @@
 				5A39229E0E1E041300D9ABC1 /* Growl-WithInstaller.framework in Frameworks */,
 				5A7B3F780E2297CD006C1466 /* Quartz.framework in Frameworks */,
 				5A7B419B0E229955006C1466 /* PDFKit.framework in Frameworks */,
-				81624CE20E2F8F89009C9987 /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,11 +217,9 @@
 			children = (
 				5AB1BFDF0E18F3120094C370 /* RemoteControl */,
 				5AC33B7B0DA477AB0006AA09 /* Nally9only */,
-				85D9B9D20C97DF7B006C5E0F /* Views */,
-				85F701440C895C8600E27A1E /* Model */,
-				85ED53BA0D0934DC003296D4 /* Constant & Utilities */,
 				07B370670D6840600035E87D /* YLImagePreviewer.h */,
 				07B370680D6840600035E87D /* YLImagePreviewer.m */,
+				85ED53BA0D0934DC003296D4 /* Constant & Utilities */,
 				859252F30CFD4F860054E3D6 /* YLContextualMenuManager.h */,
 				859252F40CFD4F860054E3D6 /* YLContextualMenuManager.m */,
 				85899C790CEED4E40031907F /* YLApplication.h */,
@@ -241,8 +230,9 @@
 				85F7F2080B06EE36000C4CDF /* YLLGlobalConfig.m */,
 				85F702670D033FF90035F600 /* DBPrefsWindowController.h */,
 				85F702660D033FF90035F600 /* DBPrefsWindowController.m */,
-				1631E84C0E2C8D5600B87A38 /* XIPreviewController.h */,
-				1631E84D0E2C8D5600B87A38 /* XIPreviewController.m */,
+				85D9B9D20C97DF7B006C5E0F /* Views */,
+				85ED53B90D09349C003296D4 /* Abstract Interface */,
+				85F701440C895C8600E27A1E /* Model */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -250,7 +240,6 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				81624CE10E2F8F89009C9987 /* Carbon.framework */,
 				5A39229D0E1E041300D9ABC1 /* Growl-WithInstaller.framework */,
 				5A1969CD0E1D495F00ED377C /* Sparkle.framework */,
 				850711AA0CA7A347005F4734 /* ApplicationServices.framework */,
@@ -276,17 +265,6 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		16CABD730E2C9DC100AB8252 /* Configurations */ = {
-			isa = PBXGroup;
-			children = (
-				16BFE6490E2BC6FF001862E5 /* Growl Registration Ticket.growlRegDict */,
-				8D1107310486CEB800E47090 /* Info.plist */,
-				85A0E73B0D06B72900ACA26F /* Localizable.strings */,
-				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-			);
-			name = Configurations;
-			sourceTree = "<group>";
-		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,7 +278,6 @@
 			children = (
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				16CABD730E2C9DC100AB8252 /* Configurations */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
@@ -334,6 +311,9 @@
 				857ACC7D0D1CE1DC00C422E7 /* Xmas.icns */,
 				85AE9DAD0CB15D220045317F /* bookmark.pdf */,
 				85AE9DA60CB1597A0045317F /* reload.pdf */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				85A0E73B0D06B72900ACA26F /* Localizable.strings */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 			);
 			name = Resources;
@@ -394,18 +374,16 @@
 		5AC33B7B0DA477AB0006AA09 /* Nally9only */ = {
 			isa = PBXGroup;
 			children = (
+				169021990E277C4700BC90A4 /* XIQuickLookDelegate.h */,
+				1690219A0E277C4700BC90A4 /* XIQuickLookDelegate.m */,
 				18BB9B850D98ECE500387145 /* IPSeeker.h */,
-				18BB9B860D98ECE500387145 /* IPSeeker.mm */,
-				18A685A60D9414D900CA423A /* TYGrowlBridge.h */,
-				18A685A70D9414D900CA423A /* TYGrowlBridge.m */,
 				5AF8CA5B0D9CDB0000DFB5AB /* KOAutoReplyDelegate.h */,
 				5AF8CA5C0D9CDB0000DFB5AB /* KOAutoReplyDelegate.m */,
+				18BB9B860D98ECE500387145 /* IPSeeker.mm */,
+				18A685A60D9414D900CA423A /* YLGrowlDelegate.h */,
+				18A685A70D9414D900CA423A /* YLGrowlDelegate.m */,
 				5AE273210DD3F25D00C7A8FE /* KOAutoReplyRule.h */,
 				5AE273220DD3F25D00C7A8FE /* KOAutoReplyRule.m */,
-				1631E8210E2C674300B87A38 /* XIQuickLookBridge.h */,
-				1631E81F0E2C672700B87A38 /* XIQuickLookBridge.m */,
-				16FEC31F0E2A80B50035DADD /* XITabBarControl.h */,
-				16FEC3200E2A80B50035DADD /* XITabBarControl.m */,
 			);
 			name = Nally9only;
 			sourceTree = "<group>";
@@ -419,6 +397,15 @@
 				8570AD5E0A3923A900838442 /* YLView.mm */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		85ED53B90D09349C003296D4 /* Abstract Interface */ = {
+			isa = PBXGroup;
+			children = (
+				85ED53200D092B5F003296D4 /* YLConnection.h */,
+				85ED53210D092B5F003296D4 /* YLConnection.mm */,
+			);
+			name = "Abstract Interface";
 			sourceTree = "<group>";
 		};
 		85ED53BA0D0934DC003296D4 /* Constant & Utilities */ = {
@@ -435,13 +422,12 @@
 		85F701440C895C8600E27A1E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				85ED53200D092B5F003296D4 /* YLConnection.h */,
-				85ED53210D092B5F003296D4 /* YLConnection.mm */,
-				16C0C90A0E294BAA00B576C5 /* XIProtocol.h */,
-				16C0C90D0E294C2700B576C5 /* XIPTY.h */,
-				16C0C90E0E294C2700B576C5 /* XIPTY.m */,
 				85145AAC0AB40192009FC710 /* YLTerminal.h */,
 				85145AAD0AB40192009FC710 /* YLTerminal.mm */,
+				85145A9F0AB40053009FC710 /* YLTelnet.h */,
+				85145AA00AB40053009FC710 /* YLTelnet.mm */,
+				85CE53370D0D687800F55B7B /* YLSSH.h */,
+				85CE53380D0D687800F55B7B /* YLSSH.mm */,
 				8579CA280CF21D3D005A8353 /* YLSite.h */,
 				8579CA290CF21D3D005A8353 /* YLSite.m */,
 				85E7825A0D057E8400BDA3FB /* YLEmoticon.h */,
@@ -518,7 +504,6 @@
 				18BB9B840D98ECC900387145 /* QQWry.dat in Resources */,
 				6B3128A60DB36757005D6C32 /* Welly.icns in Resources */,
 				5A91BB110E1E1E6A007538E5 /* WellyHelp in Resources */,
-				16BFE64A0E2BC6FF001862E5 /* Growl Registration Ticket.growlRegDict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +516,7 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				8570AD5F0A3923A900838442 /* YLView.mm in Sources */,
+				85145AA10AB40053009FC710 /* YLTelnet.mm in Sources */,
 				85145AAE0AB40192009FC710 /* YLTerminal.mm in Sources */,
 				85F7F2090B06EE36000C4CDF /* YLLGlobalConfig.m in Sources */,
 				856CDB260C9650550025C754 /* encoding.c in Sources */,
@@ -542,8 +528,9 @@
 				85E7825C0D057E8400BDA3FB /* YLEmoticon.m in Sources */,
 				85ED52290D0920E6003296D4 /* CommonType.c in Sources */,
 				85ED53220D092B5F003296D4 /* YLConnection.mm in Sources */,
+				85CE53390D0D687800F55B7B /* YLSSH.mm in Sources */,
 				07B370690D6840600035E87D /* YLImagePreviewer.m in Sources */,
-				18A685A80D9414D900CA423A /* TYGrowlBridge.m in Sources */,
+				18A685A80D9414D900CA423A /* YLGrowlDelegate.m in Sources */,
 				18BB9B870D98ECE500387145 /* IPSeeker.mm in Sources */,
 				5AF8CA5D0D9CDB0000DFB5AB /* KOAutoReplyDelegate.m in Sources */,
 				5A09016D0DBCDD1600AC08F4 /* YLController.mm in Sources */,
@@ -554,10 +541,7 @@
 				5AB1BFF40E18F3260094C370 /* AppleRemote.m in Sources */,
 				5AB1BFF50E18F3260094C370 /* KeyspanFrontRowControl.m in Sources */,
 				5AB1BFF70E18F3260094C370 /* RemoteControlContainer.m in Sources */,
-				16C0C90F0E294C2700B576C5 /* XIPTY.m in Sources */,
-				16FEC3210E2A80B50035DADD /* XITabBarControl.m in Sources */,
-				1631E8200E2C672700B87A38 /* XIQuickLookBridge.m in Sources */,
-				1631E84E0E2C8D5600B87A38 /* XIPreviewController.m in Sources */,
+				1690219B0E277C4700BC90A4 /* XIQuickLookDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

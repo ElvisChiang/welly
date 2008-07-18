@@ -7,9 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <Carbon/Carbon.h>
 #import "YLView.h"
-#import "XITabBarControl.h"
+#import <PSMTabBarControl/PSMTabBarControl.h>
 #import "YLSite.h"
 #import "KOAutoReplyDelegate.h"
 #define defaultAutoReplyString @"[Welly] Sorry, I am not around."
@@ -17,6 +16,7 @@
 #define floatWindowLevel kCGStatusWindowLevel+1
 
 @class YLTerminal;
+@class YLGrowlDelegate;
 @class RemoteControl;
 @class MultiClickRemoteBehavior;
 
@@ -39,7 +39,7 @@
     IBOutlet id _detectDoubleByteButton;
 	IBOutlet id _autoReplyButton;
     
-    IBOutlet XITabBarControl *_tab;
+    IBOutlet PSMTabBarControl *_tab;
     IBOutlet NSMenuItem *_detectDoubleByteMenuItem;
     IBOutlet NSMenuItem *_closeWindowMenuItem;
     IBOutlet NSMenuItem *_closeTabMenuItem;
@@ -54,7 +54,6 @@
 	IBOutlet NSTextField *_autoReplyStringField;
     IBOutlet NSMenuItem *_showHiddenTextMenuItem;
     IBOutlet NSMenuItem *_encodingMenuItem;
-	IBOutlet NSMenuItem *_fullScreenMenuItem;
 	
 	IBOutlet NSTextView *_unreadMessageTextView;
 	
@@ -124,9 +123,9 @@
 - (void)insertObject:(id)obj inSitesAtIndex:(unsigned)theIndex;
 - (void)removeObjectFromSitesAtIndex:(unsigned)theIndex;
 - (void)replaceObjectInSitesAtIndex:(unsigned)theIndex withObject:(id)obj;
-/* commented by boost @ 9#
+
 - (void) refreshTabLabelNumber: (NSTabView *) tabView ;
-*/
+
 - (NSArray *)emoticons;
 - (unsigned)countOfEmoticons;
 - (id)objectInEmoticonsAtIndex:(unsigned)theIndex;
@@ -137,12 +136,12 @@
 
 - (void) forceFront;
 
+
 // for bindings access
 - (RemoteControl*) remoteControl;
 - (MultiClickRemoteBehavior*) remoteBehavior;
 
 // for full screen
-- (IBAction) fullScreenMode: (id) sender;
 - (void) setFont:(CGFloat) ratio;
 - (void) restoreFont:(CGFloat) ratio;
 - (void) fullScreenHandle;
@@ -152,4 +151,9 @@
 - (void) doScrollDown:(NSTimer*) timer;
 - (void) disableTimer;
 
+@end
+
+@interface NSObject (YLGrowlDelegate)
+	- (void) setController: (YLController *)controller;
+	- (void) setup;
 @end
