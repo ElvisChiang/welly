@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <Carbon/Carbon.h>
 #import "YLView.h"
 #import "XITabBarControl.h"
 #import "YLSite.h"
@@ -54,7 +53,6 @@
 	IBOutlet NSTextField *_autoReplyStringField;
     IBOutlet NSMenuItem *_showHiddenTextMenuItem;
     IBOutlet NSMenuItem *_encodingMenuItem;
-	IBOutlet NSMenuItem *_fullScreenMenuItem;
 	
 	IBOutlet NSTextView *_unreadMessageTextView;
 	
@@ -142,7 +140,6 @@
 - (MultiClickRemoteBehavior*) remoteBehavior;
 
 // for full screen
-- (IBAction) fullScreenMode: (id) sender;
 - (void) setFont:(CGFloat) ratio;
 - (void) restoreFont:(CGFloat) ratio;
 - (void) fullScreenHandle;

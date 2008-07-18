@@ -8,6 +8,7 @@
 
 #import "YLApplication.h"
 #import "YLController.h"
+#import "TYGrowlBridge.h"
 
 static NSString *gLeftString, *gRightString;
 
@@ -20,6 +21,7 @@ static NSString *gLeftString, *gRightString;
     gRightString = [[NSString stringWithCharacters: &r length: 1] retain];
 
     [NSColor setIgnoresAlpha: NO];
+    [TYGrowlBridge setup];
 }
 
 - (void) sendEvent: (NSEvent *) event {

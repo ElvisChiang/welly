@@ -11,13 +11,13 @@
 #import "TYGrowlBridge.h"
 
 typedef struct TYClickContext {
-    id context, identifier;
+    id context, object;
     SEL selector; 
 }TYClickContext;
 
 @implementation TYGrowlBridge
 
-+ (void)initialize {
++ (void)setup {
     static TYGrowlBridge *sTYGrowlBridge = nil;
     if (sTYGrowlBridge == nil) {
         sTYGrowlBridge = [[TYGrowlBridge alloc] init];
@@ -34,42 +34,7 @@ typedef struct TYClickContext {
                                    iconData:nil
                                    priority:0
                                    isSticky:NO
-                               clickContext:nil];
-}
-
-+ (void)notifyWithTitle:(NSString *)title
-            description:(NSString *)description
-       notificationName:(NSString *)notifName
-               isSticky:(BOOL)isSticky
-             identifier:(id)identifier {
-    // hack identifier that must be a string
-    NSString *stringId = [[NSNumber numberWithLong:(long)identifier] stringValue];
-    [GrowlApplicationBridge notifyWithTitle:title
-                                description:description
-                           notificationName:notifName
-                                   iconData:nil
-                                   priority:0
-                                   isSticky:isSticky
-                               clickContext:nil
-                                 identifier:stringId];
-}
-
-+ (void)notifyWithTitle:(NSString *)title
-            description:(NSString *)description
-       notificationName:(NSString *)notifName
-               isSticky:(BOOL)isSticky
-           clickContext:(id)clickContext
-          clickSelector:(SEL)clickSelector
-             identifier:(id)identifier {
-    [self notifyWithTitle:title
-              description:description
-         notificationName:notifName
-                 iconData:nil
-                 priority:0
-                 isSticky:isSticky
-             clickContext:clickContext
-            clickSelector:clickSelector
-               identifier:identifier];
+                                   clickContext:nil];
 }
 
 + (void)notifyWithTitle:(NSString *)title
@@ -80,29 +45,26 @@ typedef struct TYClickContext {
                isSticky:(BOOL)isSticky
            clickContext:(id)clickContext
           clickSelector:(SEL)clickSelector
-             identifier:(id)identifier {
+             withObject:(id)object {
     TYClickContext *c = malloc(sizeof(TYClickContext));
     c->context = clickContext;
     c->selector = clickSelector;
-    c->identifier = identifier;
+    c->object = object;
     // workaround: clickContext must be plist-encodable
     NSNumber* contextId = [NSNumber numberWithLong:(long)c];
-    // hack identifier that must be a string
-    NSString *stringId = [[NSNumber numberWithLong:(long)identifier] stringValue];
     [GrowlApplicationBridge notifyWithTitle:title
                                 description:description
                            notificationName:notifName
                                    iconData:nil
                                    priority:0
                                    isSticky:NO
-                               clickContext:contextId
-                                 identifier:stringId];
+                               clickContext:contextId];
 }
 
 - (void)growlNotificationWasClicked:(id)contextId {
 	// get context
 	TYClickContext *c = (TYClickContext *)[(NSNumber *)contextId longValue];
-    [c->context performSelector:c->selector withObject:c->identifier];
+    [c->context performSelector:c->selector withObject:c->object];
     free(c);
 }
 
