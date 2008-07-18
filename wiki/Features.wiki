@@ -1,4 +1,5 @@
 #summary Features of Welly
+#labels Featured
 
 Welly exploits the power of Mac OS X for the best term BBS browsing experience.
 
@@ -10,23 +11,27 @@ Based on the advanced [http://en.wikipedia.org/wiki/Core_Text Core Text] technol
 
 [http://welly.googlecode.com/svn/wiki/tab.jpg]
 
+= Smart Recognition =
+
+Multiline URL support.
+
 = Image Preview =
 
 Integrated with [http://www.apple.com/macosx/features/quicklook.html Quick Look].
 
 [http://welly.googlecode.com/svn/wiki/preview.jpg]
 
-= Powerful Notifications =
-
-Integrated with [http://growl.info/ Growl].
-
 = [http://en.wikipedia.org/wiki/Apple_Remote Apple Remote] Support =
 
 = Full Screen =
 
+= Powerful Notifications =
+
+Integrated with [http://growl.info/ Growl].
+
 = Multi-Language Interface =
 
-Support English, Simplified Chinese and Traditional Chinese.
+English, Simplified Chinese and Traditional Chinese support.
 
 = Automatic Update =
 
