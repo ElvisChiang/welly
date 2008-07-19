@@ -39,3 +39,15 @@ English, Simplified Chinese and Traditional Chinese support.
 = Automatic Update =
 
 Welly can check for updates on startup.
+
+= IP Search =
+
+Welly uses cz88's database to get the locations of IP addresses.
+
+= Auto-Reply =
+
+Welly can reply incoming messages automatically on your temporary leave.
+
+= Super Download =
+
+Welly can perform a full download of a post.
