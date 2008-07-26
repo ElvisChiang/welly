@@ -2,7 +2,7 @@
 #labels Featured
 
 Welly exploits the power of Mac OS X for the best term BBS browsing experience.
-See [http://welly.googlecode.com/svn/wiki/ReleaseNotes.html release notes] for latest updates.
+See [http://welly.googlecode.com/svn/trunk/ReleaseNotes.html release notes] for latest updates.
 
 = Fastest Text Rendering =
 
