@@ -10,6 +10,8 @@ Based on the advanced [http://en.wikipedia.org/wiki/Core_Text Core Text] technol
 
 = Tabbed Browsing =
 
+Display status indicators such as connections and the numbers of unread messages.
+
 [http://welly.googlecode.com/svn/wiki/tab.jpg]
 
 = Smart Recognition =
@@ -38,7 +40,7 @@ English, Simplified Chinese and Traditional Chinese support.
 
 = Automatic Update =
 
-Welly can check for updates on startup.
+Welly can check for updates on startup via [http://sparkle.andymatuschak.org/ Sparkle].
 
 = IP Search =
 
@@ -50,4 +52,4 @@ Welly can reply incoming messages automatically on your temporary leave.
 
 = Super Download =
 
-Welly can perform a full download of a post.
+Welly can perform a smart full download of a post.
