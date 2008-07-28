@@ -1,4 +1,4 @@
-#summary Welly How To's.
+#summary Welly How To's
 
 = Networking =
 
@@ -19,5 +19,5 @@
  * How to enter and exit [Features#Full_Screen full screen] mode?
  Shortcut: Shift-Command-F (⇧⌘F).
 
- * How to customize site images for the cover flow portal? (subject to change)
- Drop the images to the directory {{{~/Library/Application Support/Images/Covers/}}}.
+ * How to customize site images for the [Features#Cover_Flow_Portal Cover Flow portal]? (subject to change)
+ Drop the images in the directory {{{~/Library/Application Support/Welly/Covers/}}}.
