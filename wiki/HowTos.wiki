@@ -17,7 +17,7 @@
  Double-click the tab bar.
 
  * How to enter and exit [Features#Full_Screen full screen] mode?
- Shortcut: Shift-Command-F (⇧⌘F).
+ Press Shift-Command-F (⇧⌘F). You may also create a [http://guides.macrumors.com/Taking_Screenshots_in_Mac_OS_X screenshot] only for the BBS terminal area by entering full screen mode first.
 
  * How to customize site images for the [Features#Cover_Flow_Portal Cover Flow portal]? (subject to change)
- Drop the images in the directory {{{~/Library/Application Support/Welly/Covers/}}}.
+ Drop the images in the directory {{{~/Library/Application Support/Welly/Covers/}}}. The image file names should be the same as the site names in the address book; the extensions can be PNG, JPG, TIFF, and other formats.
