@@ -14,7 +14,7 @@
 = User Interface =
 
  * How to open a new empty [Features#Tabbed_Browsing tab]?
- Double-click the tab bar or press Shift-Command-T (⇧⌘T).
+ Double-click the tab bar or press Command-T (⌘T).
 
  * How to enter and exit [Features#Full_Screen full screen] mode?
  Press Shift-Command-F (⇧⌘F). You may also create a [http://guides.macrumors.com/Taking_Screenshots_in_Mac_OS_X screenshot] _only_ for the BBS terminal area by entering full screen mode first.
