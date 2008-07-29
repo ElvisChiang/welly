@@ -1,12 +1,16 @@
 #summary Features of Welly
 #labels Featured
 
-Welly exploits the power of Mac OS X for the best term BBS browsing experience.
+Welly exploits the power of Mac OS X to bring the best term BBS browsing experience.
 See [http://welly.googlecode.com/svn/trunk/ReleaseNotes.html release notes] for latest updates.
+
+You may also be interested in [HowTos] for tips and tricks.
 
 = Fastest Text Rendering =
 
-Based on the advanced [http://en.wikipedia.org/wiki/Core_Text Core Text] technology in Mac OS X.
+Draw texts using the modern [http://en.wikipedia.org/wiki/Core_Text Core Text] technology, "up to [http://developer.apple.com/documentation/Carbon/Conceptual/CoreText_Programming/Introduction/chapter_1_section_1.html#//apple_ref/doc/uid/TP40005533-CH1-SW1 twice] as fast as [http://en.wikipedia.org/wiki/Apple_Type_Services_for_Unicode_Imaging ATSUI]" that legacy BBS terminals are based on.
+
+[http://chart.apis.google.com/chart?chs=300x65&cht=bhg&chd=t:50|100&chco=4d89f9,c6d9fd&chm=tATSUI,000000,0,0,12|tCore+Text,000000,1,0,12&nonsense=something_that_ends_with.png]
 
 = Cover Flow Portal =
 
@@ -22,40 +26,44 @@ Display status indicators such as connections and the numbers of unread messages
 
 = Smart Recognition =
 
-Multiline URL support.
+Support Multiline URL click.
 
 = Image Preview =
 
-Integrated with [http://www.apple.com/macosx/features/quicklook.html Quick Look].
+Integrate with [http://www.apple.com/macosx/features/quicklook.html Quick Look].
 
 [http://welly.googlecode.com/svn/wiki/preview.jpg]
 
-= [http://en.wikipedia.org/wiki/Apple_Remote Apple Remote] Support =
-
 = Full Screen =
+
+Watch the BBS in an elegant way.
 
 = Powerful Notifications =
 
-Integrated with [http://growl.info/ Growl].
+Integrate with [http://growl.info/ Growl].
 
 [http://welly.googlecode.com/svn/wiki/growl.jpg]
 
-= Multi-Language Interface =
+= Automatic Reply =
 
-English, Simplified Chinese and Traditional Chinese support.
-
-= Automatic Update =
-
-Welly can check for updates on startup via [http://sparkle.andymatuschak.org/ Sparkle].
-
-= IP Search =
-
-Welly uses cz88's database to get the locations of IP addresses.
-
-= Auto-Reply =
-
-Welly can reply incoming messages automatically on your temporary leave.
+Respond with automatic reply messages on your temporary leave.
 
 = Super Download =
 
-Welly can perform a smart full download of a post.
+Perform a smart full download of a post by clicking a single button.
+
+= [http://en.wikipedia.org/wiki/Apple_Remote Remote] Support =
+
+Browse using the remote control.
+
+= IP Search =
+
+Locate IP addresses in cz88's database.
+
+= Multi-Language Interface =
+
+Support English, Simplified Chinese and Traditional Chinese.
+
+= Automatic Update =
+
+Check for updates automatically via [http://sparkle.andymatuschak.org/ Sparkle].
