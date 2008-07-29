@@ -8,7 +8,7 @@ You may also be interested in [HowTos] for tips and tricks.
 
 = Fastest Text Rendering =
 
-Draw texts using the modern [http://en.wikipedia.org/wiki/Core_Text Core Text] technology, "up to [http://developer.apple.com/documentation/Carbon/Conceptual/CoreText_Programming/Introduction/chapter_1_section_1.html#//apple_ref/doc/uid/TP40005533-CH1-SW1 twice] as fast as [http://en.wikipedia.org/wiki/Apple_Type_Services_for_Unicode_Imaging ATSUI]" that legacy BBS terminals are based on.
+Draw texts using the modern [http://en.wikipedia.org/wiki/Core_Text Core Text] technology, up to [http://developer.apple.com/documentation/Carbon/Conceptual/CoreText_Programming/Overview/chapter_2_section_1.html twice] as fast as legacy terminals using [http://en.wikipedia.org/wiki/Apple_Type_Services_for_Unicode_Imaging ATSUI].
 
 [http://chart.apis.google.com/chart?chs=300x65&cht=bhg&chd=t:50|100&chco=4d89f9,c6d9fd&chm=tATSUI,000000,0,0,12|tCore+Text,000000,1,0,12&nonsense=something_that_ends_with.png]
 
@@ -26,7 +26,7 @@ Display status indicators such as connections and the numbers of unread messages
 
 = Smart Recognition =
 
-Support Multiline URL click.
+Click multiline URLs.
 
 = Image Preview =
 
@@ -52,9 +52,9 @@ Respond with automatic reply messages on your temporary leave.
 
 Perform a smart full download of a post by clicking a single button.
 
-= [http://en.wikipedia.org/wiki/Apple_Remote Remote] Support =
+= Remote Support =
 
-Browse using the remote control.
+Browse using the [http://en.wikipedia.org/wiki/Apple_Remote remote control].
 
 = IP Search =
 
