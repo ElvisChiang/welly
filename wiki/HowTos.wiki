@@ -19,5 +19,10 @@
  * How to enter and exit [Features#Full_Screen full screen] mode?
  Press Shift-Command-F (⇧⌘F). You may also create a [http://guides.macrumors.com/Taking_Screenshots_in_Mac_OS_X screenshot] _only_ for the BBS terminal area by entering full screen mode first.
 
- * How to customize site images for the [Features#Cover_Flow_Portal Cover Flow portal]? (subject to change)
- Drop the images into the directory {{{~/Library/Application Support/Welly/Covers/}}}. The image file names should be the same as the site names in the address book; the extensions can be PNG, JPG, TIFF, and other formats.
+ * How to always open a link in default browser?
+ Shift-Click.
+
+ * How to hack the [Features#Cover_Flow_Portal Cover Flow portal]? (subject to change)
+ The feature is turned off by default. To activate it,
+  # run {{{defaults write org.net9.Welly Portal 1}}} from command line;
+  # drop the site cover images into the directory {{{~/Library/Application Support/Welly/Covers/}}}. The image file names should be the same as the site names in the address book; the extensions can be PNG, JPG, TIFF, and other formats.
