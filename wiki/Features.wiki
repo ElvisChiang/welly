@@ -14,13 +14,13 @@ Draw texts using the modern [http://en.wikipedia.org/wiki/Core_Text Core Text] t
 
 = Cover Flow Portal =
 
-Use [http://en.wikipedia.org/wiki/Cover_Flow Cover Flow] to flip through sites. Coming soon!
+Use [http://en.wikipedia.org/wiki/Cover_Flow Cover Flow] to flip through sites.
 
 [http://welly.googlecode.com/svn/wiki/portal.jpg]
 
 = Tabbed Browsing =
 
-Display status indicators such as connections and the numbers of unread messages.
+Display status indicators such as connections and the numbers of unread messages on tabs.
 
 [http://welly.googlecode.com/svn/wiki/tab.jpg]
 
