@@ -1,4 +1,5 @@
 #summary Welly How To's
+#labels Featured
 
 = Networking =
 
@@ -11,18 +12,23 @@
  * How to configure SOCKS and HTTP(S) proxies?
  Please refer to [http://www.meadowy.org/~gotoh/projects/connect connect.c] or [http://proxytunnel.sourceforge.net/ proxytunnel].
 
-= User Interface =
+= Browsing =
 
  * How to open a new empty [Features#Tabbed_Browsing tab]?
  Double-click the tab bar or press Command-T (⌘T).
 
+ * How to always open a link in default browser?
+ Shift-click.
+
+ * How to save an image in [Features#Image_Preview preview]?
+ Drag and drop it to desktop or any directory.
+
+= User Interface =
+
  * How to enter and exit [Features#Full_Screen full screen] mode?
  Press Shift-Command-F (⇧⌘F). You may also create a [http://guides.macrumors.com/Taking_Screenshots_in_Mac_OS_X screenshot] _only_ for the BBS terminal area by entering full screen mode first.
-
- * How to always open a link in default browser?
- Shift-Click.
 
  * How to hack the [Features#Cover_Flow_Portal Cover Flow portal]? (subject to change)
  The feature is turned off by default. To activate it,
   # run {{{defaults write org.net9.Welly Portal 1}}} from command line;
-  # drop the site cover images into the directory {{{~/Library/Application Support/Welly/Covers/}}}. The image file names should be the same as the site names in the address book; the extensions can be PNG, JPG, TIFF, and other formats.
+  # drop your favorite site cover images into the directory {{{~/Library/Application Support/Welly/Covers/}}}. The image file names should be the same as the site names; the extensions can be PNG, JPG, TIFF, and other formats.
