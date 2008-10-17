@@ -15,7 +15,7 @@
     	<link>http://welly.googlecode.com/</link>
     	<pubDate>Fri, 17 Oct 2008 21:27:02 +0800</pubDate>
     	<enclosure url="http://welly.googlecode.com/files/Welly.v1.4.1.zip" length="8183581" type="application/zip" sparkle:version="1.4.1"/>
-		<sparkle:releaseNotesLink>http://welly.googlecode.com/svn/tags/1.4.1/trunk/ReleaseNotes.html</sparkle:releaseNotesLink>
+		<sparkle:releaseNotesLink>http://welly.googlecode.com/svn/tags/1.4.1/ReleaseNotes.html</sparkle:releaseNotesLink>
       <guid isPermaLink="false">Welly-141</guid>
     </item>
   </channel>
