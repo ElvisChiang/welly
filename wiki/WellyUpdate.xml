@@ -7,16 +7,16 @@
     <generator>Feeder 1.5.3(378) http://reinventedsoftware.com/feeder/</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>zh</language>
-    <pubDate>Sun, 5 Oct 2008 19:58:02 +0800</pubDate>
-    <lastBuildDate>Sun, 5 Oct 2008 19:30:02 +0800</lastBuildDate>
+    <pubDate>Fri, 17 Oct 2008 21:27:02 +0800</pubDate>
+    <lastBuildDate>Fri, 17 Oct 2008 21:22:30 +0800</lastBuildDate>
 	<atom:link href="http://welly.googlecode.com/svn/wiki/WellyUpdate.xml" rel="self" type="application/rss+xml"/>
     <item>
-    	<title>Welly 1.4</title>
+    	<title>Welly 1.4.1</title>
     	<link>http://welly.googlecode.com/</link>
-    	<pubDate>Sun, 5 Oct 2008 19:58:02 +0800</pubDate>
-    	<enclosure url="http://welly.googlecode.com/files/Welly.v1.4.zip" length="8477969" type="application/zip" sparkle:version="1.4"/>
-		<sparkle:releaseNotesLink>http://welly.googlecode.com/svn/tags/1.4/trunk/ReleaseNotes.html</sparkle:releaseNotesLink>
-      <guid isPermaLink="false">Welly-140</guid>
+    	<pubDate>Fri, 17 Oct 2008 21:27:02 +0800</pubDate>
+    	<enclosure url="http://welly.googlecode.com/files/Welly.v1.4.1.zip" length="8183581" type="application/zip" sparkle:version="1.4.1"/>
+		<sparkle:releaseNotesLink>http://welly.googlecode.com/svn/tags/1.4.1/trunk/ReleaseNotes.html</sparkle:releaseNotesLink>
+      <guid isPermaLink="false">Welly-141</guid>
     </item>
   </channel>
 </rss>
