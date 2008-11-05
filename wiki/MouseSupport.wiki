@@ -1,5 +1,5 @@
+#summary An introduction for Mouse Support Feature (beta)
 #labels beta
-#An introduction for Mouse Support Feature (beta)
 
 = Introduction =
 
