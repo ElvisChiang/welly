@@ -32,3 +32,8 @@
  The feature is turned off by default. To activate it,
   # run {{{defaults write org.net9.Welly Portal 1}}} from command line;
   # drop your favorite site cover images into the directory {{{~/Library/Application Support/Welly/Covers/}}}. The image file names should be the same as the site names; the extensions can be PNG, JPG, TIFF, and other formats.
+
+= Misc =
+
+ * How to run Welly on Tiger?
+ Sorry, Welly requires Leopard or later version of Mac OS X. You may try [http://welly.googlecode.com/files/Dort-SSH.zip Dort] (SSH support added by Aerodonkey) on Tiger.
