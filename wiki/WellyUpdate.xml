@@ -14,7 +14,7 @@
     	<title>Welly 2.0 RC</title>
     	<link>http://welly.googlecode.com/</link>
     	<pubDate>Sat, 6 Dec 2008 00:00:00 +0800</pubDate>
-    	<enclosure url="http://welly.googlecode.com/files/Welly.v2.0_RC.zip" length="8520376" type="application/zip" sparkle:version="2.0RC"/>
+    	<enclosure url="http://welly.googlecode.com/files/Welly.v2.0_RC.zip" length="8520376" type="application/zip" sparkle:version="2.0 RC"/>
 		<sparkle:releaseNotesLink>http://welly.googlecode.com/svn/tags/2.0_RC/ReleaseNotes.html</sparkle:releaseNotesLink>
       <guid isPermaLink="false">Welly-200RC</guid>
     </item>
