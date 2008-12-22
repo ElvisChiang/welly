@@ -1,0 +1,83 @@
+﻿
+/* Sheet Title */
+"Are you sure you want to quit Welly?" = "確認要結束 Welly？";
+
+/* Sheet Title */
+"Are you sure you want to close this tab?" = "確認要關閉標籤頁？";
+
+/* Sheet Title */
+"Are you sure you want to reconnect?" = "確認要重新連線？";
+
+/* Sheet Title */
+"Are you sure you want to paste?" = "確認要進行粘貼？";
+
+/* Default Button */
+"Close" = "關閉";
+
+/* Default Button */
+"Confirm" = "確認";
+
+/* Cancel Button */
+"Cancel" = "取消";
+
+/* Menu */
+"Look Up in Dictionary" = "查詢字典";
+
+/* Menu */
+"Copy" = "拷貝"
+
+/* Default Button */
+"Quit" = "結束";
+
+/* Sheet Message */
+"There are %d tabs open in Welly. Do you want to quit anyway?" = "還有 %d 個標籤頁正在連線中，您確認要結束 Welly？";
+
+/* Sheet Message */
+"The connection is still alive. If you close this tab, the connection will be lost. Do you want to close this tab anyway?" = "此連線未結束。若您關閉這個標籤頁會強迫斷線。您確認要關閉這個標籤頁嗎？";
+
+/* Sheet Message */
+"The connection is still alive. If you reconnect, the current connection will be lost. Do you want to reconnect anyway?" = "此連線未結束。若您重新連線，此連線會強迫斷線。您確認要重新連線嗎？";
+
+/* Sheet Message */
+"It seems that you are not in edit mode. Pasting may cause unpredictable behaviors. Are you sure you want to paste?" = "您似乎並非在編輯文章。進行粘貼可能會產生難以預料的行為。您確認要進行粘貼嗎？";
+
+/* Preferences */
+"General" = "一般";
+
+/* Preferences */
+"Colors" = "顏色";
+
+/* Preferences */
+"Fonts" = "字形";
+
+/* Preferences */
+"Connection" = "連線";
+
+/* IP Seeker */
+"LQIPBadFile" = "無法打開IP數據庫";
+"LQCountryUnknown" = "未知國家";
+"LQAreaUnknown" = "未知區域";
+"LQIPLocation" = "IP地址: %@    所在位置: %@";
+
+/* Auto Reply */
+"DefaultAutoReplyString" = "[Welly] 我現在不在，請稍後再聯絡";
+"MessageWindowTitle" = "您有 %d 條未讀訊息，請查收";
+
+/* Preview */
+"Connecting" = "連線中";
+"Completed" = "已完成";
+"Opening browser" = "正在打開瀏覽器";
+"Canceled" = "預覽已取消";
+
+/* EXIF info */
+"Original Date Time" = "原始創建日期: \n%@\n\n";
+"Exposure Time" = "曝光時間: %@ s\n";
+"Focal Length" = "焦距: %@ mm\n";
+"F Number" = "光圈: %@\n";
+"ISO" = "ISO: %@\n";
+"tiffStringFormat" = "\n設備製造商及型號：\n%@ %@";
+
+/* Cover flow */
+"Are you sure you want to delete the cover?" = "您真的要移除這個封面麼？";
+"Welly will delete this cover file, please confirm." = "Welly即將移除這個站台的封面信息，請您確認";
+"Delete" = "移除";
