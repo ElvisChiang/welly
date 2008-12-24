@@ -2,21 +2,21 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>Welly Appcast</title>
-    <link>http://welly.net9.org/</link>
+    <link>http://welly.googlecode.com/</link>
     <description>Welly updates</description>
     <generator>Feeder 1.5.3(378) http://reinventedsoftware.com/feeder/</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>zh</language>
-    <pubDate>Fri, 19 Dec 2008 21:08:00 +0800</pubDate>
-    <lastBuildDate>Fri, 19 Dec 2008 20:31:30 +0800</lastBuildDate>
+    <pubDate>Thu, 25 Dec 2008 00:08:00 +0800</pubDate>
+    <lastBuildDate>Thu, 25 Dec 2008 00:03:30 +0800</lastBuildDate>
 	<atom:link href="http://welly.googlecode.com/svn/wiki/WellyUpdate.xml" rel="self" type="application/rss+xml"/>
     <item>
-    	<title>Welly 2.0 RC2</title>
+    	<title>Welly 2.0 Release</title>
     	<link>http://welly.googlecode.com/</link>
-    	<pubDate>Fri, 19 Dec 2008 21:08:00 +0800</pubDate>
-    	<enclosure url="http://welly.googlecode.com/files/Welly.v2.0_RC2.zip" length="8815935" type="application/zip" sparkle:version="2.0 RC2"/>
+    	<pubDate>Thu, 25 Dec 2008 00:08:00 +0800</pubDate>
+    	<enclosure url="http://welly.googlecode.com/files/Welly.v2.0.zip" length="8550887" type="application/zip" sparkle:version="2.0 Release"/>
 		<sparkle:releaseNotesLink>http://welly.googlecode.com/svn/wiki/ReleaseNotes.html</sparkle:releaseNotesLink>
-      <guid isPermaLink="false">Welly-200RC2</guid>
+      <guid isPermaLink="false">Welly-200REL</guid>
     </item>
   </channel>
 </rss>
