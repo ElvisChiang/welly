@@ -123,8 +123,6 @@ const NSTimeInterval DEFAULT_CLICK_TIME_DIFFERENCE = 0.25;	// for remote control
 	
     // drag & drop in site view
     [_tableView registerForDraggedTypes:[NSArray arrayWithObject:SiteTableViewDataType] ];
-	// drag & drop in portal
-	[_telnetView registerForDraggedTypes:[NSArray arrayWithObject:NSFilenamesPboardType] ];
 
     // open the portal
     // the switch

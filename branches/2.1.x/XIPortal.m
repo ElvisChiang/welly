@@ -562,18 +562,18 @@ static const CGFloat colorValues[C_COUNT][4] = {
 // 
 - (BOOL)performDragOperation:(id <NSDraggingInfo>)sender {
 	NSLog(@"portal: performDragOperation:");
-	
+
 	YLSite *site = [self selectedSite];
 	if (site == NULL)
 		return NO;
-	
-    NSPasteboard *pboard = [sender draggingPasteboard];
-	
-    if ( [[pboard types] containsObject:NSFilenamesPboardType] ) {
+
+	NSPasteboard *pboard = [sender draggingPasteboard];
+
+	if ( [[pboard types] containsObject:NSFilenamesPboardType] ) {
 		NSLog(@"portal: begin to add file");
-        NSArray *files = [pboard propertyListForType:NSFilenamesPboardType];
-        int numberOfFiles = [files count];
-        // Perform operation using the list of files
+		NSArray *files = [pboard propertyListForType:NSFilenamesPboardType];
+		int numberOfFiles = [files count];
+		// Perform operation using the list of files
 		for (int i = 0; i < numberOfFiles; ++i) {
 			NSString *filename = [files objectAtIndex: i];
 			NSString *suffix = [[filename componentsSeparatedByString:@"."] lastObject];
