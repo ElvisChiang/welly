@@ -26,7 +26,7 @@ See _Welly Help_ inside the software for details.
  Drag and drop it to desktop or any directory.
 
  * How to use the super writer?
- Shift-Command-P (⇧⌘F) to invoke the writer; Command-Return (⌘↩) to commit the post.
+ Shift-Command-P (⇧⌘P) to invoke the writer; Command-Return (⌘↩) to commit the post.
 
 = User Interface =
 
