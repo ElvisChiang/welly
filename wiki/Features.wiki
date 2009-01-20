@@ -16,7 +16,7 @@ Draw texts using the modern [http://en.wikipedia.org/wiki/Core_Text Core Text] t
 
 Display status indicators such as connections and the numbers of unread messages on tabs.
 
-[http://welly.googlecode.com/svn/wiki/tab.jpg]
+[http://welly.googlecode.com/svn/wiki/tab.png]
 
 = Smart Recognition =
 
@@ -69,8 +69,18 @@ Support English, Simplified Chinese and Traditional Chinese.
 
 Check for updates automatically via [http://sparkle.andymatuschak.org/ Sparkle].
 
-= Cover Flow Portal (Coming Soon) =
+= Cover Flow Portal =
 
-Use [http://en.wikipedia.org/wiki/Cover_Flow Cover Flow] to flip through sites. This feature will be added into Welly soon.
+Use [http://en.wikipedia.org/wiki/Cover_Flow Cover Flow] to flip through sites.
 
 [http://welly.googlecode.com/svn/wiki/portal.jpg]
+
+= Super Writer =
+
+Can add foreground/background colors, underlines, blink texts, etc. Also supports spell checking.
+
+[http://welly.googlecode.com/svn/wiki/writer.png]
+
+= Mouse Support =
+
+Use mouse to navigate the BBS. See [MouseSupport] for details.

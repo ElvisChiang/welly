@@ -1,6 +1,8 @@
 #summary Welly How To's
 #labels Featured
 
+See _Welly Help_ inside the software for details.
+
 = Networking =
 
  * How to connect to a BBS server via TELNET?
@@ -23,15 +25,18 @@
  * How to save an image in [Features#Image_Preview preview]?
  Drag and drop it to desktop or any directory.
 
+ * How to use the super writer?
+ Shift-Command-P(⇧⌘F) to invoke the writer; Command-Return(⌘↩) to commit the post.
+
 = User Interface =
 
  * How to enter and exit [Features#Full_Screen full screen] mode?
  Press Shift-Command-F (⇧⌘F). You may also create a [http://guides.macrumors.com/Taking_Screenshots_in_Mac_OS_X screenshot] _only_ for the BBS terminal area by entering full screen mode first.
 
- * How to hack the [Features#Cover_Flow_Portal Cover Flow portal]? (subject to change)
+ * How to hack the [Features#Cover_Flow_Portal Cover Flow portal]?
  The feature is turned off by default. To activate it,
-  # run {{{defaults write org.net9.Welly Portal 1}}} from command line;
-  # drop your favorite site cover images into the directory {{{~/Library/Application Support/Welly/Covers/}}}. The image file names should be the same as the site names; the extensions can be PNG, JPG, TIFF, and other formats.
+  # enable Cover Flow from the Preferences;
+  # drag and drop your favorite site cover images into the cover flow.
 
 = Misc =
 
