@@ -6,13 +6,16 @@ See _Welly Help_ inside the software for details.
 = Networking =
 
  * How to connect to a BBS server via TELNET?
- Type {{{your.site.org[:port]}}} in the address field; port is optional (default 23).
+ Type {{{[id@]your.site.org[:port]}}} in the address field; port is optional (default 23).
 
  * How to connect to a BBS server via SSH?
  Type {{{ssh://id@your.site.org[:port]}}} in the address field; port is optional (default 22).
 
  * How to configure SOCKS and HTTP(S) proxies?
  Please refer to [http://www.meadowy.org/~gotoh/projects/connect connect.c] or [http://proxytunnel.sourceforge.net/ proxytunnel].
+
+ * How to enable auto-login?
+ In the address book, click the button to the right of the address field, and follow the instructions.
 
 = Browsing =
 
