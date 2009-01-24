@@ -77,7 +77,7 @@ Use [http://en.wikipedia.org/wiki/Cover_Flow Cover Flow] to flip through sites.
 
 = Super Writer =
 
-Can add foreground/background colors, underlines, blink texts, etc. Also supports spell checking.
+Add foreground/background colors, underlines and blink texts within the UI. Support copying & pasting rich texts directly. Also support undo & redo, spell checking, etc.
 
 [http://welly.googlecode.com/svn/wiki/writer.png]
 
