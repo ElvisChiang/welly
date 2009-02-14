@@ -88,3 +88,7 @@ Use mouse to navigate the BBS. See [MouseSupport] for details.
 = Auto-login with Keychain =
 
 Save your password in the Keychain and login automatically.
+
+= RSS Feed Generator (Experimental) =
+
+Generate RSS feeds from your favorite boards for you to subscribe. Currently for SMTH BBS only.
