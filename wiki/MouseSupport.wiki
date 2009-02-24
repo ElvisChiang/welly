@@ -3,6 +3,6 @@
 
 = Introduction =
 
-Mouse Support is a feature which we promise to add in Welly 2.0. It is under develop, however in Welly 2.0 beta version, we have introduced mouse support already. You can enable mouse support for a site in the bookmark setting page.
+Mouse Support is available since Welly 2.0. You can enable mouse support for a site in the bookmark setting page, or toggle it through a toolbar button. (You may need to check "Customize toolbar" in order to find the new button.)
 
 Notice that mouse support is *only* available for _SMTH BBS_ currently. If you're browsing other BBS, such as _PTT_, enabling mouse support may lead to *unpredictable troubles*.
