@@ -31,6 +31,9 @@ See _Welly Help_ inside the software for details.
  * How to use the super writer?
  Shift-Command-P (⇧⌘P) to invoke the writer; Command-Return (⌘↩) to commit the post.
 
+ * How to make a rectangular selection?
+ Holding option key (⌥) while dragging your mouse.
+
 = User Interface =
 
  * How to enter and exit [Features#Full_Screen full screen] mode?
