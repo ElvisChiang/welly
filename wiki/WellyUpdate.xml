@@ -14,7 +14,7 @@
     	<title>Welly 2.2 Release</title>
     	<link>http://welly.googlecode.com/</link>
     	<pubDate>Tue, 02 Mar 2009 00:22:00 +0800</pubDate>
-    	<enclosure url="http://welly.googlecode.com/files/Welly.v2.2.zip" length="9066143" type="application/zip" sparkle:version="2.1 Release"/>
+    	<enclosure url="http://welly.googlecode.com/files/Welly.v2.2.zip" length="9066143" type="application/zip" sparkle:version="2.2 Release"/>
 		<sparkle:releaseNotesLink>http://welly.googlecode.com/svn/wiki/ReleaseNotes.html</sparkle:releaseNotesLink>
       <guid isPermaLink="false">Welly-220REL</guid>
     </item>
