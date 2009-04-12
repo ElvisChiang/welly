@@ -12,7 +12,7 @@ See _Welly Help_ inside the software for details.
  Type {{{ssh://id@your.site.org[:port]}}} in the address field; port is optional (default 22).
 
  * How to configure SOCKS and HTTP(S) proxies?
- Please refer to [http://www.meadowy.org/~gotoh/projects/connect connect.c] or [http://proxytunnel.sourceforge.net/ proxytunnel].
+ Proxies for SSH connections can be configured in the address book. For advanced usages, please refer to [http://www.meadowy.org/~gotoh/projects/connect connect.c] or [http://proxytunnel.sourceforge.net/ proxytunnel].
 
  * How to enable auto-login?
  In the address book, click the button to the right of the address field, and follow the instructions.
@@ -33,6 +33,9 @@ See _Welly Help_ inside the software for details.
 
  * How to make a rectangular selection?
  Holding option key (⌥) while dragging your mouse.
+
+ * How to invoke URL mode, and how to leave?
+ Option-Tab (⌥⇥) to invoke; Esc (⎋) to leave. See Welly's help for details.
 
 = User Interface =
 

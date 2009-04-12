@@ -93,6 +93,18 @@ Save your password in the Keychain and login automatically.
 
 Select (and copy) rectangular regions.
 
+= URL Mode =
+
+Navigate through URLs and preview attachments without grabbing the mouse.
+
+= Proxy =
+
+Use proxies for SSH connections.
+
+= Direct Color Pasting =
+
+Paste rich text directly into the terminal, without invoking the Super Writer.
+
 = RSS Feed Generator (Experimental) =
 
 Generate RSS feeds from your favorite boards for you to subscribe. Currently for SMTH BBS only.
