@@ -93,10 +93,6 @@ Save your password in the Keychain and login automatically.
 
 Select (and copy) rectangular regions.
 
-= URL Mode =
-
-Navigate through URLs and preview attachments without grabbing the mouse.
-
 = Proxy =
 
 Use proxies for SSH connections.
