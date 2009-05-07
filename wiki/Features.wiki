@@ -105,6 +105,9 @@ Use proxies for SSH connections.
 
 Paste rich text directly into the terminal, without invoking the Super Writer.
 
+= URL Mode = 
+Open the URL without move your hand from keyboard to mouse or trackpad. See the help in Welly for more information.
+
 = RSS Feed Generator (Experimental) =
 
 Generate RSS feeds from your favorite boards for you to subscribe. Currently for SMTH BBS only.
