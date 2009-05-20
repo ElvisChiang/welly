@@ -12,10 +12,10 @@ See _Welly Help_ inside the software for details.
  Type {{{ssh://id@your.site.org[:port]}}} in the address field; port is optional (default 22).
 
  * How to configure SOCKS and HTTP(S) proxies?
- Proxies for SSH connections can be configured in the address book. For advanced usages, please refer to [http://www.meadowy.org/~gotoh/projects/connect connect.c] or [http://proxytunnel.sourceforge.net/ proxytunnel].
+ Proxies for SSH connections can be configured in the site book.
 
  * How to enable auto-login?
- In the address book, click the button to the right of the address field, and follow the instructions.
+ In the site book, click the button to the right of the address field, and follow the instructions.
 
 = Browsing =
 
