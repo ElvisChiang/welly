@@ -1,0 +1,139 @@
+﻿/* Sheet Title */
+"Are you sure you want to quit Welly?" = "您确定要退出 Welly 吗？";
+"Are you sure you want to close this tab?" = "您确定要关闭这个标签吗？";
+"Are you sure you want to reconnect?" = "您确定要重新连接吗？";
+"Are you sure you want to paste?" = "您确定要进行粘贴吗？";
+"Are you sure you want to open the composer?" = "您确定要使用编辑器吗？";
+"Site address format error" = "站点地址格式错误";
+
+/* Default Button */
+"Close" = "关闭";
+"Confirm" = "确定";
+"Quit" = "退出";
+
+/* Cancel Button */
+"Cancel" = "取消";
+
+/* Menu */
+"Look Up in Dictionary" = "查字典";
+"Copy" = "拷贝";
+
+/* Sheet Message */
+"There are %d tabs open in Welly. Do you want to quit anyway?" = "还有 %d 个标签正在连接中，您确定要退出 Welly？";
+"The connection is still alive. If you close this tab, the connection will be lost. Do you want to close this tab anyway?" = "此连接未断开。若您关闭这个标签会强制断开连接。您确定要关闭这个标签吗？";
+"The connection is still alive. If you reconnect, the current connection will be lost. Do you want to reconnect anyway?" = "此连接未断开。若您重新连接，当前的连接将会强行断开。您确定要重新连接吗？";
+"It seems that you are not in edit mode. Pasting may cause unpredictable behaviors. Are you sure you want to paste?" = "您似乎并非在编辑文章。进行粘贴可能会产生难以预料的行为。您确定要进行粘贴吗？";
+"It seems that you are not in edit mode. Using composer now may cause unpredictable behaviors. Are you sure you want to continue?" = "您似乎并非在编辑文章，此时使用文本编辑器可能会产生难以预料的行为。您确定要继续吗？";
+"Your BBS ID (username) should be provided explicitly by \"id@\" in the site address field in order to use auto-login for telnet connections." = "要使用 telnet 连接的自动登录功能，您需要在地址中显式写入您的 BBS 帐号，即“id@”不可省略。";
+
+/* Preferences */
+"General" = "一般";
+"Colors" = "颜色";
+"Fonts" = "字体";
+"Connection" = "连接";
+"AutoReply" = "自动应答";
+
+/* IP Seeker */
+"LQIPBadFile" = "无法打开IP数据库文件";
+"LQCountryUnknown" = "未知国家";
+"LQAreaUnknown" = "未知区域";
+"LQIPLocation" = "IP地址: %@    所在位置: %@";
+
+/* Site */
+"DefaultSiteName" = "无标题";
+
+/* Auto Reply */
+"DefaultAutoReplyString" = "[Welly] 我现在不在，请稍后再联系";
+"MessageWindowTitle" = "您有 %d 条未读消息，请查收";
+"AutoReplyGrowlTipFormat" = "%@\n(已自动回复)";
+
+/* Preview */
+"Connecting" = "连接中";
+"Completed" = "已完成";
+"Opening browser" = "正在打开浏览器";
+"Canceled" = "下载已取消";
+
+/* EXIF info */
+"Original Date Time" = "原始创建日期: \n%@\n\n";
+"Exposure Time" = "曝光时间: %@ s\n";
+"Focal Length" = "焦距: %@ mm\n";
+"F Number" = "光圈: %@\n";
+"ISO" = "ISO: %@\n";
+"tiffStringFormat" = "\n设备制造商及型号：\n%@ %@";
+
+/* Cover flow */
+"Are you sure you want to delete the cover?" = "您真的要删除这个封面么？";
+"Welly will delete this cover file, please confirm." = "Welly即将删除这个站点的封面信息，请您确认";
+"Delete" = "删除";
+"Drag an image file to Welly to set the cover of this site. " = "将图片文件拖拽至 Welly 即可为本站点设置封面\n将当前封面拖出即可移除";
+
+/* Color */
+"Black" = "黑色";
+"Red" = "红色";
+"Green" = "绿色";
+"Yellow" = "黄色";
+"Blue" = "蓝色";
+"Magenta" = "洋红";
+"Cyan" = "青绿";
+"White" = "白色";
+"BlackHilite" = "黑色（高亮）";
+"RedHilite" = "红色（高亮）";
+"GreenHilite" = "绿色（高亮）";
+"YellowHilite" = "黄色（高亮）";
+"BlueHilite" = "蓝色（高亮）";
+"MagentaHilite" = "洋红（高亮）";
+"CyanHilite" = "青绿（高亮）";
+"WhiteHilite" = "白色（高亮）";
+
+/* Restore font */
+"Are you sure you want to restore all your font settings?" = "您真的要恢复所有字体设置么？";
+"If you proceed, you will lost all your current font settings for Welly, and this operation is only encouraged when your font settings are missing. Are you sure you want to continue?" = "若继续，Welly的所有当前字体设置均将被丢弃，是否继续？";
+
+/* Mouse Button */
+"Compose Post" = "发表文章";
+"Delete Post" = "自宫";
+"Show Note" = "备忘录";
+"Show Help" = "求助";
+"Normal To Digest" = "切换到文摘模式";
+"Digest To Thread" = "切换到主题模式";
+"Thread To Mark" = "切换到精华模式";
+"Mark To Origin" = "切换到原作模式";
+"Origin To Normal" = "切换到一般模式";
+"Author To Normal" = "切换到一般模式";
+"Display All Boards" = "列出";
+"Sort Boards" = "排序";
+"Switch Boards Number" = "切换";
+"Delete Board" = "删除版面";
+"Author: %@" = "同作者: %@";
+"Jump To Mail List" = "检查信件";
+"Enter Excerption" = "浏览精华区";
+// User Info
+"Chat" = "聊天";
+"Mail" = "寄信";
+"Send Message" = "送讯息";
+"Add To Friend List" = "加为好友";
+"Remove From Friend List" = "断交";
+"Switch User List Mode" = "切换模式";
+"Show User Description" = "查看说明档";
+"Previous User" = "上一个用户";
+"Next User" = "下一个用户";
+
+/* Contextual Menu */
+// Moving Area
+"Press Home" = "跳至最顶端";
+"Press End" = "跳至最底端";
+"Quit Mode" = "退出多功能阅读\tq";
+// Author Button
+"Info for %@" = "查看%@个人信息";
+"Add %@ as friend" = "添加%@为好友";
+// Click Entry
+"Download post" = "全文下载";
+"Thread top" = "同主题第一篇\t=";
+"Thread bottom" = "同主题最后一篇\t\\";
+"Same author reading" = "同作者阅读\t\t^U";
+"Same thread reading" = "同主题阅读\t\t^X";
+// URL
+"Copy URL" = "拷贝URL";
+"Open With Browser" = "用浏览器打开";
+"URL Mode" = "URL模式";
+"Normal Mode" = "常规模式";
