@@ -7,16 +7,16 @@
     <generator>Feeder 1.5.3(378) http://reinventedsoftware.com/feeder/</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>zh</language>
-    <pubDate>Sun, 12 July 2009 12:48:00 +0800</pubDate>
-    <lastBuildDate>Sun, 12 July 2009 12:40:00 +0800</lastBuildDate>
+    <pubDate>Thu, 14 April 2011 20:01:00 -0400</pubDate>
+    <lastBuildDate>Thu, 14 April 2011 19:35:00 +0800</lastBuildDate>
 	<atom:link href="http://welly.googlecode.com/svn/wiki/WellyUpdate.xml" rel="self" type="application/rss+xml"/>
     <item>
-    	<title>Welly Farewell Edition (2.4 Release)</title>
+    	<title>Welly Armageddon Edition (2.64 Release)</title>
     	<link>http://welly.googlecode.com/</link>
-    	<pubDate>Sun, 12 July 2009 12:48:00 +0800</pubDate>
-    	<enclosure url="http://welly.googlecode.com/files/Welly.v2.4.zip" length="9009567" type="application/zip" sparkle:version="2.4 Release"/>
+    	<pubDate>Thu, 14 April 2011 20:01:00 -0400</pubDate>
+    	<enclosure url="http://welly.googlecode.com/files/Welly.v2.64.zip" length="6775845" type="application/zip" sparkle:version="2.64 Release"/>
 		<sparkle:releaseNotesLink>http://welly.googlecode.com/svn/wiki/ReleaseNotes.html</sparkle:releaseNotesLink>
-      <guid isPermaLink="false">Welly-240REL</guid>
+      <guid isPermaLink="false">Welly-264REL</guid>
     </item>
   </channel>
 </rss>
