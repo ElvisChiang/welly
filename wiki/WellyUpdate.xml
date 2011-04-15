@@ -8,13 +8,13 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>zh</language>
     <pubDate>Thu, 14 April 2011 20:01:00 -0400</pubDate>
-    <lastBuildDate>Thu, 14 April 2011 19:35:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 14 April 2011 19:35:00 -0400</lastBuildDate>
 	<atom:link href="http://welly.googlecode.com/svn/wiki/WellyUpdate.xml" rel="self" type="application/rss+xml"/>
     <item>
     	<title>Welly Armageddon Edition (2.64 Release)</title>
     	<link>http://welly.googlecode.com/</link>
     	<pubDate>Thu, 14 April 2011 20:01:00 -0400</pubDate>
-    	<enclosure url="http://welly.googlecode.com/files/Welly.v2.64.zip" length="6775845" type="application/zip" sparkle:version="2.64 release"/>
+    	<enclosure url="http://welly.googlecode.com/files/Welly.v2.64.zip" length="6775845" type="application/zip" sparkle:version="2.64-release"/>
 		<sparkle:releaseNotesLink>http://welly.googlecode.com/svn/wiki/ReleaseNotes.html</sparkle:releaseNotesLink>
       <guid isPermaLink="false">Welly-264REL</guid>
     </item>
