@@ -37,6 +37,7 @@
     // the switch
     [self tabViewDidChangeNumberOfTabViewItems:_tabView];
 	[_tabBarControl setMainController:[self retain]];
+    [_tabView setTabBarControl:_tabBarControl];
 }
 
 #pragma mark -

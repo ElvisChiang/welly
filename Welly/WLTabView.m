@@ -11,7 +11,7 @@
 #import "WLTerminal.h"
 #import "WLTerminalView.h"
 #import "WLMainFrameController.h"
-
+#import "WLTabBarControl.h"
 #import "WLTabViewItemController.h"
 
 #import "WLGlobalConfig.h"
@@ -25,11 +25,11 @@
 - (void)updatePortal;
 - (void)resetFrame;
 - (void)showPortal;
-
+@property WLTabBarControl* tabBarControl;
 @end
 
-
 @implementation WLTabView
+@synthesize tabBarControl = _tabBarControl;
 
 - (id)initWithFrame:(NSRect)frame {
     self = [super initWithFrame:frame];
@@ -291,7 +291,7 @@
 			   ([event modifierFlags] & NSShiftKeyMask) == 0 && 
 			   [[event characters] intValue] > 0 && 
 			   [[event characters] intValue] < 10) {
-		[self selectTabViewItemAtIndex:([[event characters] intValue]-1)];
+        [[self tabBarControl] selectTabViewItemAtIndex:([[event characters] intValue]-1)];
 		return YES;
 	} else if (([event modifierFlags] & NSCommandKeyMask) == 0 && 
 			   ([event modifierFlags] & NSAlternateKeyMask) == 0 && 
