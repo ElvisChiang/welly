@@ -20,7 +20,7 @@ NSString *const WLGIFToHTMLFormat = @"<html><body bgcolor='Black'><center><img s
 #endif
     // This progress bar is restored by gtCarrera
     // boost: don't put it in XIPreviewController
-    HMBlkProgressIndicator *_indicator;
+    NSProgressIndicator *_indicator;
     NSPanel         *_window;
     long long _contentLength, _transferredLength;
     NSString *_filename, *_path;
@@ -155,7 +155,7 @@ static NSString * stringFromFileSize(long long size) {
 	[[_window windowController] setDelegate:self];
 
     // Init progress bar
-    _indicator = [[HMBlkProgressIndicator alloc] initWithFrame:NSMakeRect(10, 10, 380, 10)];
+    _indicator = [[NSProgressIndicator alloc] initWithFrame:NSMakeRect(10, 10, 380, 10)];
     [[_window contentView] addSubview:_indicator];
     [_indicator startAnimation:self];
 }
