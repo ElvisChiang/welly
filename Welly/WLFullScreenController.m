@@ -130,6 +130,13 @@
 		[_fullScreenWindow close];
 		// Show the main window
 		[_originalWindow setAlphaValue:100.0f];
+
+        // workaround: sometimes the y position of _terminalview changed to -360, set it to 0.
+        NSRect rect = [_targetView frame];
+        if(rect.origin.y < 0){
+            rect.origin.y = 0.0f;
+            [_targetView setFrame:rect];
+        }
 	} else { // Set the window when the animation is over
 		// Hide the main window
         [_originalWindow setAlphaValue:0.0f];
