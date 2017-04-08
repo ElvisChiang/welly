@@ -35,7 +35,8 @@ NSString *const WLMenuTitleOpenWithBrowser = @"Open With Browser";
 - (void)mouseUp:(NSEvent *)theEvent {
 	NSString *url = [[_manager activeTrackingAreaUserInfo] objectForKey:WLURLUserInfoName];
 	if (url != nil) {
-		if (([theEvent modifierFlags] & NSShiftKeyMask) == NSShiftKeyMask) {
+        if (true) { // Always open with external browser
+//		if (([theEvent modifierFlags] & NSShiftKeyMask) == NSShiftKeyMask) {
 			// click while holding shift key or navigate web pages
 			// open the URL with browser
 			[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:url]];
