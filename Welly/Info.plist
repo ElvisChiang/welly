@@ -41,9 +41,9 @@
 		</dict>
 	</array>
 	<key>CFBundleShortVersionString</key>
-	<string>2.8 beta</string>
+	<string>2.8.1</string>
 	<key>CFBundleVersion</key>
-	<string>900</string>
+	<string>901</string>
 	<key>CFBundleHelpBookFolder</key>
 	<string>Help</string>
 	<key>CFBundleHelpBookName</key>
