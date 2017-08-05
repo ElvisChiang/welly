@@ -71,18 +71,16 @@
             addr = [addr substringFromIndex:range.location + range.length];
         NSFileManager *fileManager = [NSFileManager defaultManager];
         if (![fileManager fileExistsAtPath:@"/usr/bin/telnet"]) {
-            NSLog(@"use bundle telnet");
             NSString *filePath = [[NSBundle mainBundle] pathForResource:@"telnet" ofType:@""];
             fmt = [NSString stringWithFormat:@"%@%@", filePath, @" -8 %@ -%@"];
         } else {
             // "-" before the port number forces the initial option negotiation
             fmt = @"/usr/bin/telnet -8 %@ -%@";
         }
-        NSLog(@"use telnet %@", fmt);
     }
     NSString *r = [NSString stringWithFormat:fmt, addr, port];
     return r;
-} 
+}
 
 - (id)init {
     if (self == [super init]) {
