@@ -149,14 +149,19 @@ const float xscale = 1, yscale = 0.8;
 #pragma mark -
 #pragma mark Event handler
 - (void)keyDown:(NSEvent *)theEvent {
-	switch ([[theEvent charactersIgnoringModifiers] characterAtIndex:0]) {
+    switch ([[theEvent charactersIgnoringModifiers] characterAtIndex:0]) {
         case WLWhitespaceCharacter:
-        case WLReturnCharacter: {
+        case WLReturnCharacter:
             [self select];
             return;
-        }
+        case NSUpArrowFunctionKey:
+        case NSDownArrowFunctionKey:
+        case NSLeftArrowFunctionKey:
+        case NSRightArrowFunctionKey:
+            [_imageFlowView keyDown:theEvent];
+            return;
     }
-    [_imageFlowView keyDown:theEvent];
+    [super keyDown:theEvent];
 }
 
 // private
@@ -194,6 +199,11 @@ const float xscale = 1, yscale = 0.8;
 		return;
 	} 
 }
+
+- (void)mouseDown:(NSEvent *)theEvent {
+    // Do not call [super mouseDown:theEvent]; to keep FirstResponder
+}
+
 
 #pragma mark -
 #pragma mark NSDraggingSource protocol
