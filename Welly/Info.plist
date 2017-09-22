@@ -2,12 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDisplayName</key>
-	<string>Welly</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>Welly</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Welly Help</string>
 	<key>CFBundleIconFile</key>
 	<string>Welly</string>
 	<key>CFBundleIdentifier</key>
@@ -18,6 +22,8 @@
 	<string>Welly</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.9.0</string>
 	<key>CFBundleSignature</key>
 	<string>abgK</string>
 	<key>CFBundleURLTypes</key>
@@ -40,24 +46,18 @@
 			</array>
 		</dict>
 	</array>
-	<key>CFBundleShortVersionString</key>
-	<string>2.8.2</string>
 	<key>CFBundleVersion</key>
-	<string>902</string>
-	<key>CFBundleHelpBookFolder</key>
-	<string>Help</string>
-	<key>CFBundleHelpBookName</key>
-	<string>Welly Help</string>
+	<string>903</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.9</string>
 	<key>LSMinimumSystemVersionByArchitecture</key>
 	<dict>
-		<key>x86_64</key>
-		<string>10.6.0</string>
 		<key>i386</key>
 		<string>10.5.0</string>
 		<key>ppc</key>
 		<string>10.5.0</string>
+		<key>x86_64</key>
+		<string>10.6.0</string>
 	</dict>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>

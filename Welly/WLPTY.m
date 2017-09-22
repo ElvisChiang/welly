@@ -20,6 +20,7 @@
 #include <sys/ioctl.h>
 #include <unistd.h>
 #include <termios.h>
+#include <stdlib.h>
 #import "WLGlobalConfig.h"
 #import "WLPTY.h"
 #import "WLProxy.h"
@@ -38,14 +39,20 @@
     if ([addr rangeOfString:@" "].length > 0)
         return addr;
     // check protocol
-    BOOL ssh;
+    BOOL ssh, websock;
     NSString *port = nil;
     NSRange range;
     if ([[addr lowercaseString] hasPrefix: @"ssh://"]) {
         ssh = YES;
+        websock = NO;
         addr = [addr substringFromIndex:6];
-    } else {
+    } else if ([[addr lowercaseString] hasPrefix: @"wss://"]){
+        websock = YES;
         ssh = NO;
+        addr = [addr substringFromIndex:6];
+    }else {
+        ssh = NO;
+        websock = NO;
         range = [addr rangeOfString:@"://"];
         if (range.length > 0)
             addr = [addr substringFromIndex:range.location + range.length];
@@ -57,11 +64,14 @@
         addr = [addr substringToIndex:range.location];
     }
     // make the command
-    NSString *fmt;
+    NSString *fmt, *proxyScript;
     if (ssh) {
         if (port == nil)
             port = @"22";
         fmt = @"/usr/bin/ssh -o Protocol=2,1 -p %2$@ -x %1$@";
+    } else if (websock) {
+        port = [NSString stringWithFormat:@"%d", arc4random_uniform(99999)];
+        proxyScript = [[NSBundle mainBundle] pathForResource:@"proxy.sh" ofType:@""];
     } else {
         if (port == nil)
             port = @"23";
@@ -78,7 +88,13 @@
             fmt = @"/usr/bin/telnet -8 %@ -%@";
         }
     }
-    NSString *r = [NSString stringWithFormat:fmt, addr, port];
+    
+    NSString *r;
+    if (websock) {
+        r = [NSString stringWithFormat:@"%@ wss://%@ %@", proxyScript, addr, port];
+    } else {
+        r = [NSString stringWithFormat:fmt, addr, port];
+    }
     return r;
 }
 
