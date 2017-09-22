@@ -46,10 +46,15 @@
         ssh = YES;
         websock = NO;
         addr = [addr substringFromIndex:6];
-    } else if ([[addr lowercaseString] hasPrefix: @"wss://"]){
+    } else if ([[addr lowercaseString] containsString: @"wss://"]){
         websock = YES;
         ssh = NO;
-        addr = [addr substringFromIndex:6];
+        range = [addr rangeOfString:@"@"];
+        if (range.length > 0) {
+            addr = [addr substringFromIndex:range.location + range.length + 6];
+        } else {
+            addr = [addr substringFromIndex:6];
+        }
     }else {
         ssh = NO;
         websock = NO;
